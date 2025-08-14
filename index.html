@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouMatter</title>
+    <!-- Animate style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header
+      class="d-flex justify-content-between align-items-center sticky-top"
+    >
+      <div class="logo-section">
+        <img
+          src="images/matter.svg"
+          class="img m-auto rounded-5"
+          alt="youMatter logo"
+        />
+      </div>
+      <nav class="navbar">
+        <ul class="d-flex">
+          <li class="nav-list list-unstyled">
+            <a class="nav-link text-decoration-none me-5 fw-bold" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-list list-unstyled">
+            <a class="nav-link text-decoration-none me-5 fw-bold" href="#"
+              >About</a
+            >
+          </li>
+          <li class="nav-list list-unstyled">
+            <a
+              class="nav-link text-decoration-none me-5 fw-bold"
+              href="#appointments"
+              >Appointments</a
+            >
+          </li>
+          <li class="nav-list list-unstyled">
+            <a class="nav-link text-decoration-none me-5 fw-bold" href="#faq"
+              >FAQ</a
+            >
+          </li>
+          <li class="nav-list list-unstyled">
+            <a
+              class="nav-link text-decoration-none me-5 fw-bold"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="buttons me-5">
+        <a href="#" class="btn btn-primary m-3 ps-4 pe-4 pt-2 pb-2 fs-5"
+          >Log in</a
+        >
+        <a
+          href="signup.html"
+          class="btn btn-outline-primary m-3 ps-4 pe-4 pt-2 pb-2 fs-5"
+          >Sign up</a
+        >
+      </div>
+    </header>
+    <!-- Main section -->
+    <main>
+      <section
+        class="container-fluid d-flex justify-content-between rounded-2 w-100 position-relative"
+        id="home"
+      >
+        <div
+          class="home-content d-flex flex-column justify-content-center m-5 animate__animated animate__slideInLeft"
+        >
+          <h1 class="fw-bold">
+            Welcome to <span class="text-black" id="main-head">YouMatter</span>
+          </h1>
+          <p class="fs-5">
+            Your safe space for mental health and well-being. Here you can find
+            trusted resources, self-care tools, and support to help you on your
+            journey.
+          </p>
+          <a
+            href="index.html"
+            class="btn btn-outline-primary w-50 m-3 ps-4 pe-4 pt-2 pb-2 fs-5"
+            >Sign up</a
+          >
+        </div>
+        <img
+          class="img-fluid main animate__animated animate__slideInRight"
+          src="images/header_img.png"
+          alt=""
+        />
+      </section>
+      <section id="about" data-aos="fade-up" data-aos-duration="700">
+        <div class="about-heading">
+          <h2 class="text-center m-5 p-5 fs-1 fw-bold">About</h2>
+        </div>
+        <div class="about-contents container">
+          <div class="row">
+            <div class="col-6">
+              <img
+                class="img-fluid"
+                src="images/about_image.png"
+                alt="about image"
+              />
+            </div>
+            <div class="col-6">
+              <h3 class="fs-1 fw-bolder">
+                Heal together with
+                <span class="d-block text-primary">YouMatter</span>
+              </h3>
+              <p class="about-para mt-4 mb-5">
+                We offer personalized care and guidance to support recovery from
+                mental health challenges, fostering strength, balance, and hope.
+                Supporting individuals on their journey to overcome
+                difficulties, regain confidence, and embrace a healthier future,
+                we provide compassion and understanding to help you navigate
+                challenges, build resilience, and achieve lasting well-being.
+                Dedicated to guiding recovery from anxiety, depression, and
+                stress, we focus on helping you heal and rediscover joy in
+                everyday life. Our approach empowers you to overcome mental
+                health concerns with care, empathy, and effective strategies,
+                offering safe and supportive spaces where healing can flourish.
+                We walk beside you on your journey, providing the tools,
+                guidance, and encouragement needed to move from struggle to
+                strength.
+              </p>
+              <a
+                href="#appointments"
+                class="btn btn-primary me-4 px-5 py-3 rounded-5 fs-4"
+                >Make appointments</a
+              >
+              <a
+                href="#contact"
+                class="btn btn-danger ms-4 px-5 py-3 rounded-5 fs-4"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="appointments" class="container mt-5 pt-5">
+        <div
+          class="appointment-headings"
+          data-aos="fade-up"
+          data-aos-duration="700"
+        >
+          <h2 class="text-center fs-1 fw-bold mb-5">Appointments</h2>
+          <div class="doctors-list">
+            <div class="row" data-aos="fade-up" data-aos-duration="700">
+              <div class="col-3">
+                <div
+                  class="card border-2 border-primary mb-5"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="images/doc1.png"
+                    class="card-img-top bg-primary"
+                    alt="doctors"
+                  />
+                  <div class="card-body bg-white">
+                    <h4 class="card-title">Dr. Martin Seligman</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Clinical Psychology</strong> from
+                      <strong>Cambridge University</strong> with
+                      <strong>12+ years</strong> helping clients overcome
+                      <strong>anxiety</strong>, <strong>depression</strong>, and
+                      <strong>trauma</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc2.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Susan Fiske</h4>
+                    <p class="card-text">
+                      <strong>M.A.</strong> in
+                      <strong>Counseling Psychology</strong> from
+                      <strong>Oxford University</strong> with
+                      <strong>10+ years</strong> helping clients overcome
+                      <strong>stress</strong>, <strong>burnout</strong>, and
+                      <strong>anxiety</strong>
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc3.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Daniel Kahneman</h4>
+                    <p class="card-text">
+                      <strong>M.S.</strong> in
+                      <strong>Clinical Mental Health Counseling</strong> from
+                      <strong>Harvard University</strong> with
+                      <strong>8+ years</strong> supporting clients through
+                      <strong>stress</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc4.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Steven Pinker</h4>
+                    <p class="card-text">
+                      <strong>Doctorate</strong> in
+                      <strong>Psychotherapy</strong> from
+                      <strong>Yale University</strong> with
+                      <strong>14 years</strong> helping people overcome
+                      <strong>trauma</strong> and <strong>addiction</strong>
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="700">
+              <div class="col-3">
+                <div
+                  class="card border-2 border-primary mb-5"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="images/doc5.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Claire Middleton</h4>
+                    <p class="card-text">
+                      <strong>M.A.</strong> in
+                      <strong>Cognitive Behavioral Therapy</strong> from
+                      <strong>Columbia University</strong> with
+                      <strong>12+ years</strong> assisting with
+                      <strong>anxiety</strong>, <strong>OCD</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div
+                  class="card border-2 border-primary mb-5"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="images/doc6.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Jonathan Haidt</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Developmental Psychology</strong> from
+                      <strong>University of Toronto</strong> with
+                      <strong>11 years</strong> helping clients with
+                      <strong>self-esteem</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc7.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Roy Baumeister</h4>
+                    <p class="card-text">
+                      <strong>M.S.</strong> in <strong>Counseling</strong> from
+                      <strong>New York University</strong> with
+                      <strong>9 years</strong> treating
+                      <strong>anxiety</strong>, <strong>depression</strong>, and
+                      <strong>family conflicts</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc8.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr.Albert Bandura</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Positive Psychology</strong> from
+                      <strong>University of Pennsylvania</strong> with
+                      <strong>13+ years</strong> enhancing
+                      <strong>resilience</strong>, <strong>motivation</strong>,
+                      and <strong>happiness</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="700">
+              <div class="col-3">
+                <div
+                  class="card border-2 border-primary mb-5"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="images/doc9.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Isabel Hawthorne</h4>
+                    <p class="card-text">
+                      <strong>Doctorate</strong> in
+                      <strong>Neuropsychology</strong> from
+                      <strong>King’s College London</strong> with
+                      <strong>10 years</strong> supporting those with
+                      <strong>memory issues</strong>, <strong>anxiety</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc10.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Carl Rogers</h4>
+                    <p class="card-text">
+                      <strong>M.A.</strong> in
+                      <strong>Mindfulness-Based Therapy</strong> from
+                      <strong>Monash University</strong> with
+                      <strong>7 years</strong> guiding clients through
+                      <strong>stress</strong>, <strong>anxiety</strong>, and
+                      <strong>burnout</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc11.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Rebecca Linford</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Social Psychology</strong> from
+                      <strong>University of Melbourne</strong> with
+                      <strong>16 years</strong> helping people navigate
+                      <strong>relationships</strong>, <strong>anxiety</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc12.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Philip Zimbardo</h4>
+                    <p class="card-text">
+                      <strong>M.S.</strong> in
+                      <strong>Marriage & Family Therapy</strong> from
+                      <strong>UCLA</strong> with
+                      <strong>9+ years</strong> assisting with
+                      <strong>conflict resolution</strong>,
+                      <strong>anxiety</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="700">
+              <div class="col-3">
+                <div
+                  class="card border-2 border-primary mb-5"
+                  style="width: 18rem"
+                >
+                  <img
+                    src="images/doc13.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Penelope Turner</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Occupational Psychology</strong> from
+                      <strong>University of Manchester</strong> with
+                      <strong>12+ years</strong> addressing
+                      <strong>workplace stress</strong>,
+                      <strong>burnout</strong>, and
+                      <strong>career transitions</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc14.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Jordan Peterson</h4>
+                    <p class="card-text">
+                      <strong>M.A.</strong> in
+                      <strong>Humanistic Psychotherapy</strong> from
+                      <strong>Boston University</strong> with
+                      <strong>8 years</strong> supporting individuals with
+                      <strong>grief</strong>, <strong>anxiety</strong>, and
+                      <strong>self-discovery</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc15.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Olivia Whitmore</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Health Psychology</strong> from
+                      <strong>University of Edinburgh</strong> with
+                      <strong>14 years</strong> helping clients manage
+                      <strong>chronic illness</strong>, <strong>stress</strong>,
+                      and <strong>emotional well-being</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-2 border-primary" style="width: 18rem">
+                  <img
+                    src="images/doc1.png"
+                    class="card-img-top bg-primary"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Jonathan Haidt</h4>
+                    <p class="card-text">
+                      <strong>Ph.D.</strong> in
+                      <strong>Health Psychology</strong> from
+                      <strong>University of Edinburgh</strong> with
+                      <strong>10 years</strong> helping clients manage
+                      <strong>chronic illness</strong>, <strong>stress</strong>,
+                      and <strong>emotional well-being</strong>.
+                    </p>
+                    <a href="#" class="btn btn-primary text-capitalize"
+                      >Book now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="news" data-aos="fade-up" data-aos-duration="700">
+        <div class="news-heading m-5 p-5">
+          <h2 class="text-center text-primary fs-1 fw-bolder">Latest news</h2>
+        </div>
+        <div class="news-content container">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Hospital1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hospital2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/hospital.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>  
+        </div>
+        </div>
+      </section>
+      <section
+        id="faq"
+        class="container"
+        data-aos="fade-up"
+        data-aos-duration="700"
+      >
+        <div class="faq-heading">
+          <h2 class="text-center m-5 p-5 fs-1 fw-bold text-capitalize">
+            Frequently asked questions
+          </h2>
+        </div>
+        <div
+          class="accordion border border-primary border-3"
+          id="accordionExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is mental health?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="text-black">
+                  Mental health encompasses your emotional, psychological, and
+                  social well-being. It affects every aspect of life, including
+                  how you think, feel, act, make decisions, and relate to
+                  others. Good mental health means being able to cope with the
+                  normal stresses of life, be productive in work and activities,
+                  contribute to your community, and realize your abilities. Just
+                  like physical health, mental health is important at every
+                  stage of life, from childhood to adulthood.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What causes mental health problems?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Mental health problems can be caused by a combination of
+                  factors. These include:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Biological factors</strong> such as genetics, brain
+                    chemistry, or physical illness
+                  </li>
+                  <li>
+                    <strong>Psychological factors </strong> including trauma,
+                    abuse, or significant life changes
+                  </li>
+                  <li>
+                    <strong>Environmental influences</strong>like chronic
+                    stress, financial worries, or unstable living conditions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How do I know if I’m experiencing a mental health problem?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="text-black">
+                  Experiencing symptoms such as persistent sadness,
+                  hopelessness, or irritability; withdrawing from friends,
+                  family, or social activities; noticeable changes in sleep or
+                  eating habits; difficulty concentrating or making decisions;
+                  losing interest in activities you once enjoyed; feeling
+                  constantly overwhelmed by worries or fears; having unexplained
+                  physical issues like headaches or stomachaches; or having
+                  thoughts of self-harm are strong indicators that your mental
+                  health may be struggling. If these feelings or changes persist
+                  for weeks or begin to interfere with your daily
+                  responsibilities, relationships, or overall quality of life,
+                  it’s important to seek support from a mental health
+                  professional. Early help can make a significant difference in
+                  recovery and well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Can mental health problems be prevented?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="text-black">
+                  problems, there are steps you can take to promote overall
+                  well-being and reduce the risk of developing them. Building
+                  strong relationships and support networks can provide
+                  emotional stability, while managing stress through relaxation
+                  techniques helps maintain balance. Leading a healthy lifestyle
+                  that includes regular exercise, proper nutrition, and adequate
+                  sleep supports both body and mind. Seeking help early when
+                  challenges arise can prevent issues from becoming more
+                  serious, and talking openly about mental health helps break
+                  stigma and encourages others to do the same. Still, it’s
+                  important to remember that anyone can experience mental health
+                  difficulties—even those who take all the right steps—so
+                  compassion and understanding are essential.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Are mental health problems treatable?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Yes, most mental health problems are treatable, and with the
+                  right approach, many people can recover fully or manage their
+                  symptoms effectively to lead fulfilling lives. Treatment may
+                  involve therapy, such as cognitive-behavioral or talk therapy,
+                  which helps address underlying thoughts and behaviors;
+                  medication prescribed by a doctor to help manage symptoms;
+                  participation in support groups and community resources for
+                  shared understanding and encouragement; and self-care
+                  strategies like regular exercise, mindfulness practices, and
+                  healthy daily routines. Early intervention plays a key role in
+                  improving outcomes, making it important to seek help as soon
+                  as concerns arise.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                What should I do if I’m worried about my mental health?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  If you ever feel overwhelmed or concerned about your thoughts
+                  or emotions, it’s important to take action early. Start by
+                  opening up to someone you trust—whether it’s a friend, family
+                  member, or mentor—so you don’t have to carry the burden alone.
+                  Consider reaching out to a mental health professional who can
+                  provide proper assessment and guidance tailored to your needs.
+                  Don’t wait for issues to escalate before seeking help, as
+                  early intervention can make a significant difference in
+                  recovery. Most importantly, remember that you are not
+                  alone—there are people, services, and resources available to
+                  support you through difficult times.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                How can I help a friend or relative with mental health problems?
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Supporting a loved one with mental health challenges starts
+                  with listening without judgment and offering genuine emotional
+                  support so they feel heard and understood. Encourage them to
+                  seek professional help or connect with support groups, and
+                  check in with them regularly while showing patience throughout
+                  their journey. Offering help with everyday tasks can ease
+                  their stress, and taking the time to learn more about their
+                  condition will allow you to better understand their
+                  experiences. Most importantly, respect their privacy and
+                  decisions, but always remind them that you care and are there
+                  whenever they need you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+                aria-expanded="false"
+                aria-controls="collapseEight"
+              >
+                Are psychiatric medications addictive or dangerous?
+              </button>
+            </h2>
+            <div
+              id="collapseEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Most psychiatric medications, when prescribed by a healthcare
+                  professional and used as directed, are safe. Some myths
+                  suggest that all mental health medicines are addictive or
+                  harmful, but this is not true. Certain medications may have
+                  side effects or require close monitoring. Always consult your
+                  doctor before starting, stopping, or changing medication.
+                  Never stop taking prescribed medication suddenly without
+                  guidance, as this can be dangerous.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseNine"
+                aria-expanded="false"
+                aria-controls="collapseNine"
+              >
+                What’s the difference between mental and emotional health?
+              </button>
+            </h2>
+            <div
+              id="collapseNine"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Mental health refers to cognitive processes such as thinking,
+                  memory, perception, and decision-making, while emotional
+                  health focuses on understanding, expressing, and coping with
+                  feelings. The two are deeply interconnected, meaning
+                  challenges in one area can significantly impact the other—for
+                  example, unresolved emotional stress can contribute to mental
+                  health difficulties, and mental health struggles can make it
+                  harder to manage and process emotions effectively. Together,
+                  they play a vital role in overall well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTen"
+                aria-expanded="false"
+                aria-controls="collapseTen"
+              >
+                What is the most common mental health disorder?
+              </button>
+            </h2>
+            <div
+              id="collapseTen"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Anxiety disorders and depression are the most common mental
+                  health conditions worldwide, with anxiety involving excessive
+                  fear, worry, or nervousness that disrupts daily life, and
+                  depression characterized by persistent sadness, loss of
+                  interest or pleasure, and a range of emotional and physical
+                  difficulties. Both can significantly impact a person’s ability
+                  to function, but they are also highly treatable, especially
+                  when help is sought early through therapy, medication,
+                  lifestyle changes, and support systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-heading" data-aos="fade-up" data-aos-duration="700">
+          <h2 class="text-center m-5 p-5 fs-1 fw-bold">Contact us</h2>
+        </div>
+        <div class="contact-content container">
+          <div class="row p-4">
+            <div class="col-3" data-aos="fade-up" data-aos-duration="700">
+              <div class="card bg-primary rounded-4" style="width: 18rem">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-location-dot text-white fs-1 mb-4"></i>
+                  <h5 class="card-title text-uppercase text-white">Address</h5>
+                  <p class="card-text text-white w-75 fw-bold">
+                    198 West 21th Street, Suite 721 New York NY 10016
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="700">
+              <div class="card bg-primary rounded-4" style="width: 18rem">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-phone text-white fs-1 mb-4"></i>
+                  <h5 class="card-title text-uppercase text-white">
+                    Contact number
+                  </h5>
+                  <p class="card-text text-white w-75 fw-bold">
+                    +91 8590844298
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="700">
+              <div class="card bg-primary rounded-4" style="width: 18rem">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-envelope text-white fs-1 mb-4"></i>
+                  <h5 class="card-title text-uppercase text-white">Email</h5>
+                  <p class="card-text text-white w-75 fw-bold">
+                    youmatter@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="700">
+              <div class="card bg-primary rounded-4" style="width: 18rem">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-globe text-white fs-1 mb-4"></i>
+                  <h5 class="card-title text-uppercase text-white">Website</h5>
+                  <p class="card-text text-white w-75 fw-bold text-center">
+                    youmatter.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-5" data-aos="fade-right" data-aos-duration="700">
+            <div class="col-6 border">
+              <form action="#">
+                <input
+                  class="d-block w-75 ms-auto me-auto mt-5 p-3 rounded-3 border-0 text-dark fw-semibold text-capitalize"
+                  type="text"
+                  id="name"
+                  placeholder="your name"
+                />
+                <input
+                  class="d-block w-75 ms-auto me-auto mt-4 p-3 rounded-3 fw-semibold text-capitalize"
+                  type="email"
+                  id="email"
+                  placeholder="Your email"
+                />
+                <input
+                  class="d-block w-75 ms-auto me-auto mt-4 p-3 rounded-3 fw-semibold text-capitalize"
+                  type="text"
+                  id="subject"
+                  placeholder="subject"
+                />
+                <textarea
+                  name=""
+                  id="message"
+                  placeholder="message"
+                  class="d-block w-75 ms-auto me-auto mt-4 p-3 rounded-3 fw-semibold text-capitalize"
+                ></textarea>
+                <button
+                  type="button"
+                  class="btn btn-primary d-block ms-auto me-auto mt-4 p-3 rounded-3 text-capitalise"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+            <div class="col-6 bg-primary">
+              <img
+                class="img-fluid w-75"
+                src="images/appointment_img.png"
+                alt="appoinment"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer
+      class="container m-5 p-5"
+      data-aos="fade-left"
+      data-aos-duration="700"
+    >
+      <div class="row">
+        <div class="col-3 p-3">
+          <h3 class="text-center fw-bold">YouMatter</h3>
+          <p class="text-center mt-4">
+            Far far away, behind the word mountains, far from the countries
+          </p>
+          <div class="icon-section d-flex justify-content-evenly mt-5">
+            <i
+              class="fa-brands fa-instagram fs-1 bg-primary text-white p-2 rounded-5"
+            ></i>
+            <i
+              class="fa-brands fa-twitter fs-1 bg-primary text-white p-2 rounded-5"
+            ></i>
+            <i
+              class="fa-brands fa-facebook-f fs-1 bg-primary text-white p-2 rounded-5"
+            ></i>
+          </div>
+        </div>
+        <div class="col-3 p-3">
+          <h3 class="text-left ms-4 mb-4 fw-bold">Links</h3>
+          <ul class="">
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#home">Home</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#about">About</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#appointments"
+                >Appointments</a
+              >
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#faq">FAQ</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 p-3">
+          <h3 class="text-left ms-4 mb-4 fw-bold">Services</h3>
+          <ul>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#">Emergency Services</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#">Councelling Services</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#">Qualified Doctors</a>
+            </li>
+            <li class="list-unstyled mb-2">
+              <a class="text-decoration-none" href="#">24 Hour Services</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 p-3">
+          <h3 class="text-left ms-5 mb-4 fw-bold">Have Questions</h3>
+          <div class="row">
+            <div class="col-4">
+              <i class="fa-solid fa-location-dot text-primary fs-3 mb-4"></i>
+            </div>
+            <div class="col-8">
+              <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-4">
+              <i class="fa-solid fa-phone text-primary fs-3"></i>
+            </div>
+            <div class="col-8">
+              <p>Contact number</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <i class="fa-solid fa-globe text-primary fs-3 mb-4"></i>
+            </div>
+            <div class="col-8">
+              <p>Youmatter@gmmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p class="text-center fw-semibold">
+          Copyrights &copy;2025 All Right Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+  <!-- AOS script tag -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Bootstrap script tag -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>

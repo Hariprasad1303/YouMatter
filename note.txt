@@ -1,0 +1,342 @@
+ <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                What is mental health?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                Mental health encompasses your emotional, psychological, and
+                social well-being. It affects every aspect of life, including
+                how you think, feel, act, make decisions, and relate to others.
+                Good mental health means being able to cope with the normal
+                stresses of life, be productive in work and activities,
+                contribute to your community, and realize your abilities. Just
+                like physical health, mental health is important at every stage
+                of life, from childhood to adulthood.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                What causes mental health problems?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Mental health problems can be caused by a combination of
+                  factors. These include:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Biological factors</strong> such as genetics, brain
+                    chemistry, or physical illness
+                  </li>
+                  <li>
+                    <strong>Psychological factors </strong> including trauma,
+                    abuse, or significant life changes
+                  </li>
+                  <li>
+                    <strong>Environmental influences</strong>like chronic
+                    stress, financial worries, or unstable living conditions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                How do I know if I’m experiencing a mental health problem?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Experiencing symptoms such as persistent sadness,
+                  hopelessness, or irritability; withdrawing from friends,
+                  family, or social activities; noticeable changes in sleep or
+                  eating habits; difficulty concentrating or making decisions;
+                  losing interest in activities you once enjoyed; feeling
+                  constantly overwhelmed by worries or fears; having unexplained
+                  physical issues like headaches or stomachaches; or having
+                  thoughts of self-harm are strong indicators that your mental
+                  health may be struggling. If these feelings or changes persist
+                  for weeks or begin to interfere with your daily
+                  responsibilities, relationships, or overall quality of life,
+                  it’s important to seek support from a mental health
+                  professional. Early help can make a significant difference in
+                  recovery and well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Can mental health problems be prevented?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  While it’s not always possible to prevent mental health
+                  problems, there are steps you can take to promote overall
+                  well-being and reduce the risk of developing them. Building
+                  strong relationships and support networks can provide
+                  emotional stability, while managing stress through relaxation
+                  techniques helps maintain balance. Leading a healthy lifestyle
+                  that includes regular exercise, proper nutrition, and adequate
+                  sleep supports both body and mind. Seeking help early when
+                  challenges arise can prevent issues from becoming more
+                  serious, and talking openly about mental health helps break
+                  stigma and encourages others to do the same. Still, it’s
+                  important to remember that anyone can experience mental health
+                  difficulties—even those who take all the right steps—so
+                  compassion and understanding are essential.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Are mental health problems treatable?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Yes, most mental health problems are treatable, and with the
+                  right approach, many people can recover fully or manage their
+                  symptoms effectively to lead fulfilling lives. Treatment may
+                  involve therapy, such as cognitive-behavioral or talk therapy,
+                  which helps address underlying thoughts and behaviors;
+                  medication prescribed by a doctor to help manage symptoms;
+                  participation in support groups and community resources for
+                  shared understanding and encouragement; and self-care
+                  strategies like regular exercise, mindfulness practices, and
+                  healthy daily routines. Early intervention plays a key role in
+                  improving outcomes, making it important to seek help as soon
+                  as concerns arise.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                What should I do if I’m worried about my mental health?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  If you ever feel overwhelmed or concerned about your thoughts
+                  or emotions, it’s important to take action early. Start by
+                  opening up to someone you trust—whether it’s a friend, family
+                  member, or mentor—so you don’t have to carry the burden alone.
+                  Consider reaching out to a mental health professional who can
+                  provide proper assessment and guidance tailored to your needs.
+                  Don’t wait for issues to escalate before seeking help, as
+                  early intervention can make a significant difference in
+                  recovery. Most importantly, remember that you are not
+                  alone—there are people, services, and resources available to
+                  support you through difficult times.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                How can I help a friend or relative with mental health problems?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Supporting a loved one with mental health challenges starts
+                  with listening without judgment and offering genuine emotional
+                  support so they feel heard and understood. Encourage them to
+                  seek professional help or connect with support groups, and
+                  check in with them regularly while showing patience throughout
+                  their journey. Offering help with everyday tasks can ease
+                  their stress, and taking the time to learn more about their
+                  condition will allow you to better understand their
+                  experiences. Most importantly, respect their privacy and
+                  decisions, but always remind them that you care and are there
+                  whenever they need you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Are psychiatric medications addictive or dangerous?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Most psychiatric medications, when prescribed by a healthcare
+                  professional and used as directed, are safe. Some myths
+                  suggest that all mental health medicines are addictive or
+                  harmful, but this is not true. Certain medications may have
+                  side effects or require close monitoring. Always consult your
+                  doctor before starting, stopping, or changing medication.
+                  Never stop taking prescribed medication suddenly without
+                  guidance, as this can be dangerous.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                What’s the difference between mental and emotional health?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Mental health refers to cognitive processes such as thinking,
+                  memory, perception, and decision-making, while emotional
+                  health focuses on understanding, expressing, and coping with
+                  feelings. The two are deeply interconnected, meaning
+                  challenges in one area can significantly impact the other—for
+                  example, unresolved emotional stress can contribute to mental
+                  health difficulties, and mental health struggles can make it
+                  harder to manage and process emotions effectively. Together,
+                  they play a vital role in overall well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                What is the most common mental health disorder?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Anxiety disorders and depression are the most common mental
+                  health conditions worldwide, with anxiety involving excessive
+                  fear, worry, or nervousness that disrupts daily life, and
+                  depression characterized by persistent sadness, loss of
+                  interest or pleasure, and a range of emotional and physical
+                  difficulties. Both can significantly impact a person’s ability
+                  to function, but they are also highly treatable, especially
+                  when help is sought early through therapy, medication,
+                  lifestyle changes, and support systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>

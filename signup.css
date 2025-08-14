@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Archivo", sans-serif;
+}
+body{
+    background:url(images/help.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:none;
+}
+.login-form{
+    position:relative;
+    width:85vw;
+    height:auto;
+    border: solid;
+    border-radius: 40px;
+    margin:2rem auto;
+}
+.left-section{
+    width:50%;
+}
+input[type="text"],input[type="password"]{
+    display:block;
+    height:50px;
+    width:100%;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
+#signin{
+    display:block;
+    color:white;
+    background-color: #0D6EFD;
+    height:50px;
+    width:100%;
+}
+.right-section{
+    width:50%;
+    background-color: #0D6EFD;
+}
+.card{
+    background-color: #0D6EFD;
+}
